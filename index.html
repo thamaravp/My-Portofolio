@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thamara Perera - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background Elements -->
+    <div class="fixed-background">
+        <div class="bg-element bg-element-1"></div>
+        <div class="bg-element bg-element-2"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <!-- Animated Grid Background -->
+        <div class="grid-background"></div>
+
+        <!-- Floating Particles -->
+        <div class="particles-container" id="particles"></div>
+
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="availability-badge">
+                        <i class="fas fa-sparkles"></i>
+                        <span>Available for Internships</span>
+                    </div>
+
+                    <h1 class="hero-title">Thamara Perera</h1>
+
+                    <div class="typewriter-container">
+                        <h2 class="hero-subtitle" id="typewriter">Software Engineering Student</h2>
+                        <div class="cursor"></div>
+                    </div>
+
+                    <p class="hero-description">
+                        Passionate about building innovative applications with modern technologies. Experienced in full-stack
+                        and mobile development, ready to contribute to impactful projects.
+                    </p>
+
+                    <div class="contact-buttons">
+                        <button class="contact-btn">
+                            <i class="fas fa-envelope"></i>
+                            thamaraperera1039@gmail.com
+                        </button>
+                        <button class="contact-btn">
+                            <i class="fas fa-phone"></i>
+                            +94 71 161 1379
+                        </button>
+                    </div>
+
+                    <div class="action-buttons">
+                        <button class="btn btn-primary">
+                            <i class="fab fa-linkedin"></i>
+                            LinkedIn
+                        </button>
+                        <button class="btn btn-secondary">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </button>
+                        <button class="btn btn-download" onclick="downloadCV()">
+                            <i class="fas fa-download"></i>
+                            Download CV
+                        </button>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="image-container">
+                        <div class="image-glow"></div>
+                        <div class="profile-image">
+                            <img src="images/profile.jpg" alt="Thamara Perera" />
+                        </div>
+                        <div class="status-badge">
+                            <i class="fas fa-code"></i>
+                            Ready to Code
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education-section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-card">
+                <div class="card-content">
+                    <div class="education-info">
+                        <h3 class="education-degree">BEng (Hons) Software Engineering</h3>
+                        <p class="education-institution">University of Westminster, UK (IIT)</p>
+                    </div>
+                    <div class="education-date">
+                        <i class="fas fa-calendar"></i>
+                        <span>2023 – 2027</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid" id="skillsGrid">
+                <!-- Skills will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Competencies -->
+    <section class="competencies-section">
+        <div class="container">
+            <h2 class="section-title">Key Competencies</h2>
+            <div class="competencies-grid" id="competenciesGrid">
+                <!-- Competencies will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="contact-description">
+                I'm actively seeking internship opportunities to contribute to impactful projects. Let's discuss how I can
+                add value to your team and bring innovative solutions to life.
+            </p>
+            <div class="contact-buttons-final">
+                <button class="btn btn-primary">
+                    <i class="fas fa-envelope"></i>
+                    Send Email
+                </button>
+                <button class="btn btn-secondary">
+                    <i class="fab fa-linkedin"></i>
+                    Connect on LinkedIn
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Thamara Perera. Crafted with passion and precision.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
